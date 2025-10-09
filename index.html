@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Макет сайту</title>
+  <title>Мій сайт</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,22 +18,37 @@
   </header>
 
   <main>
-  <section class="hero"></section>
+    <section class="hero" id="hero">
+      <div>
+        <h1>Ласкаво просимо!</h1>
+        <p>Мій персональний сайт з любов’ю ❤️</p>
+        <a href="#about" class="button">Дізнатися більше</a>
+      </div>
+    </section>
 
-  <section class="about">
-    <h2>Про нас</h2>
-    <p></p>
-    <img src="https://static.ukrinform.com/photos/2020_02/thumb_files/630_360_1581517368-632.jpg" alt="зображення 1">
-    <img src="photoos1/pet1.jpg" alt="зображення 2">
-  </section>
+    <section class="about" id="about">
+      <h2>Про нас</h2>
+      <p>Ми створюємо сучасні сайти з яскравим дизайном і душею.  
+      Цей проєкт — приклад мінімалістичного веб-дизайну для навчання.</p>
+      <div class="about-images">
+        <img src="https://static.ukrinform.com/photos/2020_02/thumb_files/630_360_1581517368-632.jpg" alt="Команда">
+        <img src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg" alt="Офіс">
+      </div>
+    </section>
 
-  <section class="gallery">
-    <img src="photoos1/pet2.jfif" alt="зображення 3">
-    <img src="photoos1/pet3.webp" alt="зображення 4">
-    <img src="photoos1/pet4.jpg" alt="зображення 5">
-  </section>
+    <section class="gallery" id="gallery">
+      <h2>Галерея</h2>
+      <div class="gallery-container">
+        <img src="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg" alt="Фото 1">
+        <img src="https://images.pexels.com/photos/208821/pexels-photo-208821.jpeg" alt="Фото 2">
+        <img src="https://images.pexels.com/photos/33550/cows-curious-cattle-agriculture.jpg" alt="Фото 3">
+      </div>
+    </section>
 
-  <button>Контакти</button>
+    <section class="contact" id="contact">
+      <h2>Контакти</h2>
+      <p>Напиши нам на <a href="mailto:info@example.com">info@example.com</a></p>
+    </section>
   </main>
 
   <footer class="footer">
